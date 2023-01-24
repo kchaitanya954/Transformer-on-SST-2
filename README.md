@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 * The accuracy of the model for 10 epochs on test data is around 81%, which can be furether increased by increasing the num of epochs, and tuning the parameters of the model.
 
-* The Reference task accuracy (vanilla Transformer) is around 90%.
+* The Reference task accuracy (vanilla Transformer) for Single-Task Training on a GLUE task sst-2 is around 90%.
 
 Latency benchmarks: It takes arounf 30 sec for one iteration of batch size 128, and number of batches are 55. and the model has 723,457 trainable parameters
 

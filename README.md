@@ -29,8 +29,9 @@ pip install -r requirements.txt
 
 * The metrics used to evaluate the performance of the model are accuracy and loss. The accuracy is measured by comparing the predicted outputs of the model to the actual outputs, and calculating the percentage of correctly predicted outputs. The loss is calculated as the difference between the predicted outputs and the actual outputs. The lower the loss, the better the performance of the model.
 
-* The accuracy of the model for 10 epochs on test data is around 80%, which can be furether increased by increasing the num of epochs, and tuning the parameters of the model.
+* The accuracy of the model for 10 epochs on test data is around 81%, which can be furether increased by increasing the num of epochs, and tuning the parameters of the model.
 
 * The Reference task accuracy (vanilla Transformer) is around 90%.
 
-Latency benchmarks: 
+Latency benchmarks: It takes arounf 30 sec for one iteration of batch size 128, and number of batches are 55. and the model has 723,457 trainable parameters
+

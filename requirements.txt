@@ -1,0 +1,5 @@
+datasets==2.8.0
+ipython==8.8.0
+matplotlib==3.6.2
+torch==1.13.1
+transformers==4.25.1
